@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="witdh=device-width,initial-scale=1.0">
+<title>Fitse Motor Selling</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<!--font awesome cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<!--custom css file link-->
+<link rel="stylesheet" href="style1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ <body>
+    <!--header section-->
+    <header >
+        <div class="nav container">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <a href="#" class="logo">FITSE<span>motorcycles.</span></a>
+            <ul class="navbar">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#motors">Motorcycles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#parts">Parts</a></li>
+                <li><a href="#blog">Our blog</a></li>
+            </ul>
+            <i class='bx bx-search' id="search-icon" ></i>
+            <div class="search-box container">
+                <input type="search" name="" id="" placeholder="search here...">
+            </div>
+            <div id="login-btn">
+                <button class="btn">login</a></button>
+                <i class="far fa user"></i>
+            </div>
+        </div>
+      
+    </header>
+    <div class="login-form-container">
+        <span class="fas fa-times" id="close-login-form"></span>
+        <form action="login.php" method="post">
+            <h3>USER LOGIN</h3>
+            <div class="err">
+                <?php echo $err;?>
+            </div>
+            <input type="email" placeholder="email" name="email" class="box">
+            <input type="password" placeholder="password" name="password" class="box">
+              
+              <input type="submit" value="login" name="login" class="btn">
+            
+             
+              <p>don't have an account <a href="signup.php">create one</a></p>
+        </form>
+       </div>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>We Have Everything <br>Your <span>Motorcycle </span>Need</h1>
+            <p>This platform help you <br>
+            to get the motorcycle you want <br>
+            and there are so many choices <br>of motorcycles here  </p>
+            <a href="#" class="btn">Discover Now</a>
+        </div>
+    </section>
+    <section class="motors" id="motors">
+        <div class="heading">
+            <span><b>All Motorcycles</b></span>
+            <h2>We have all types of Motors</h2>
+            <p>i have one thing to tell you that is you are beautyful</p>
+        </div>
+        <div class="motors-container container">
+            <div class="box">
+                <img src="motor1.jfif" alt="">
+                <h2> <a href="https://www.yamahamotorsports.com/motorcycle">Yamaha Motorcycle</a> </h2>
+            </div>
+            <div class="box">
+                <img src="motor2.jfif" alt="">
+                <h2> <a href="https://suzukicycles.com/"> Suzuki Motorcycle</a></h2>
+            </div>
+            <div class="box">
+                <img src="motor3.jfif" alt="">
+                <h2> <a href="https://suzukicycles.com/">Honda Motorcycle</a> </h2>
+            </div>
+            <div class="box">
+                <img src="motor4.jfif" alt="">
+                <h2> <a href="https://www.harley-davidson.com/us/en/motorcycles/sport.html">Harly-Davidson Motorcycle</a> </h2>
+            </div>
+            <div class="box">
+                <img src="motor5.jfif" alt="">
+                <h2> <a href="https://www.bmwmotorcycles.com/en/home.html">BMW Motorcycle</a> </h2>
+            </div>
+            <div class="box">
+                <img src="motor6.jfif" alt="">
+                <h2> <a href="https://www.ducati.com/us/en/home">Ducati Motorcycle</a> </h2>
+            </div>
+        </div>
+    </section>
+   
+    <section class="about container" id="about"> 
+       <div class="about-img">
+        <img src="about.jfif" alt="">
+       </div>
+        <div class="about-text">
+            <span><b>About Us</b></span>
+            <h2>Cheap prices With <br>Quality Motorcycle</h2>
+            <p>Our organazition was first...</p>
+            <a href="#" class="btn">Learn more</a>
+        </div>
+    </section>
+    <section class="parts" id="parts">
+        <div class="heading">
+            <span><b>What We Offer</b></span>
+            <h2>Our Motorcycle Is Always Excellent</h2>
+            <p>you can also get spares for your motor here </p>
+        </div>
+            <div class="parts-container container">
+                <div class="box">
+                    <img src="part1.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>20,000birr</span>
+                    <i class='bx bxs-star' >(15 Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                <div class="box">
+                    <img src="part2.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>7,000birr</span>
+                    <i class='bx bxs-star' >(6 Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                <div class="box">
+                    <img src="part3.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>10,000birr</span>
+                    <i class='bx bxs-star' >(12 Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                <div class="box">
+                    <img src="part4.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>12,000birr</span>
+                    <i class='bx bxs-star' >(8 Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                <div class="box">
+                    <img src="part5.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>7,000birr</span>
+                    <i class='bx bxs-star' >(25 Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+                <div class="box">
+                    <img src="part6.jfif" alt="">
+                    <h3>Auto Spare Parts</h3>
+                    <span>12,000birr</span>
+                    <i class='bx bxs-star' >(20Reviews)</i>
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="details">View Details</a>
+                </div>
+
+            </div>
+        
+    </section>
+    <section class="blog" id="blog">
+        <div class="heading">
+            <span> <b>Blog & News</b> </span>
+            <h2>Our Blog Content</h2>
+            <p>here you are some blogs and news</p>
+        </div>
+        <div class="blog-container container">
+          <div class="box">
+            <img src="B1.jpg" alt="">
+            <span>January 20 2023</span>
+            <h3>YZ450F MONSTER ENERGY YAMAHA RACING EDITION</h3>
+            <p>this incredible motor have...</p>
+            <a href="#" class="blog-btn">Read More<i class='bx bxs-hand-right' ></i></a>
+          </div>
+          <div class="box">
+            <img src="b2.jfif" alt="">
+            <span>February 5 2023</span>
+            <h3>How To Get Perfect Motor At Low Price</h3>
+            <p>If you want to get motorcycles with low price...</p>
+            <a href="#" class="blog-btn">Read More<i class='bx bxs-hand-right' ></i></a>
+          </div>
+          <div class="box">
+            <img src="b3.jpg" alt="">
+            <span>February 20 2023</span>
+            <h3>Brand new sports Motor</h3>
+            <p> This model have different..</p>
+            <a href="#" class="blog-btn">Read More<i class='bx bxs-hand-right' ></i></a>
+          </div>
+          
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">FITSE<span>motorcycle</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-meta' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-telegram' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Page</h3>
+                <a href="#home">Home</a>
+                <a href="#motors">Motorcycles</a>
+                <a href="#about">About US</a>
+                
+                <a href="#parts">Parts</a>
+                <a href="#blog">Our Blog</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>Addis Ababa</p>
+                <p>Hawassa</p>
+                <p>Bahir Dar</p>
+                <p>Adama</p>
+                <p>Mekele</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; FITSEmotorcycles All Right Reserved</p>
+    </div>
+    
+<script src="script.js"></script>
+ 
+
+
+
+
+
+
+
+    
+ </body>
+
+
+
+
+</head>
+
+
+
+
+</html>
